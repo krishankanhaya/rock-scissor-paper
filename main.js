@@ -77,7 +77,9 @@ const showDialog = () => {
         var diff = Math.abs(yScoreValue - cScoreValue)
         window.alert(`You ${txt} by ${diff} points.`)
         yScoreElement.innerHTML = 0;
+        yScoreValue = 0;
         cScoreElement.innerHTML = 0;
+        cScoreValue = 0;
 
     }
 }
