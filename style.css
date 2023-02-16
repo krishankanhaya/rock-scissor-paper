@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    border: 1px solid red;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 1rem;
+    background-color: #4285F4;
+}
+
+.content{
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 10%;
+}
+table{
+    font-size: 1.2rem;
+    padding: .8rem;
+}
+.message{
+    margin-top: 2%;
+    padding: .8rem;
+    height: 4.5rem;
+    border: 1px solid red;
+    font-size: 1.2rem;
+}
+.message p{
+    text-align: center;
+}
+#cScore{
+    color: rgb(243, 119, 119);
+    font-size: 1.4rem;
+}
+#yScore{
+    color: rgb(126, 255, 126);
+    font-size: 1.4rem;
+}
+.control{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn button{
+    padding: 1rem;
+    width: 6rem; 
+    border: none;
+}
+#btn-1{
+    background-color: #34A953;
+}
+#btn-2{
+    background-color: #FBBC05;
+}
+#btn-3{
+    background-color: #EA4335;
+}
