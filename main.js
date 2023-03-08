@@ -10,7 +10,7 @@ let cScoreValue = 0
 
 const message = document.getElementById('message')
 
-const choice = ['stone', 'scissors', 'Paper'];
+const choice = ['stone', 'scissors', 'paper'];
 // Rule of Game :  A rock beats scissors, scissors beat paper by cutting it, and paper beats rock by covering it.
 
 // Generating computer choice
