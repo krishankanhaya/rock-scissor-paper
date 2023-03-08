@@ -54,13 +54,13 @@ table{
     border: none;
 }
 #btn-1{
-    background-color: transparant;
+    background-color: transparent;
 }
 #btn-2{
-    background-color: transparant;
+    background-color: transparent;
 }
 #btn-3{
-    background-color: transparant;
+    background-color: transparent;
 }
 #btn,#btn-2,#btn-3{
     cursor: pointer;
