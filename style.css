@@ -26,7 +26,7 @@ table{
     margin-top: 2%;
     padding: .8rem;
     height: 4.5rem;
-    border: 1px solid red;
+    border: 1px solid rgb(255, 255, 255);
     font-size: 1.2rem;
 }
 .message p{
@@ -54,11 +54,14 @@ table{
     border: none;
 }
 #btn-1{
-    background-color: #34A953;
+    background-color: transparent;
 }
 #btn-2{
-    background-color: #FBBC05;
+    background-color: transparent;
 }
 #btn-3{
-    background-color: #EA4335;
+    background-color: transparent;
+}
+#btn,#btn-2,#btn-3{
+    cursor: pointer;
 }

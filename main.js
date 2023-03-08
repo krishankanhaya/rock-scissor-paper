@@ -10,7 +10,7 @@ let cScoreValue = 0
 
 const message = document.getElementById('message')
 
-const choice = ['stone', 'scissors', 'Paper'];
+const choice = ['stone', 'scissors', 'paper'];
 // Rule of Game :  A rock beats scissors, scissors beat paper by cutting it, and paper beats rock by covering it.
 
 // Generating computer choice
@@ -23,15 +23,15 @@ function getRandomInt(min, max) {
 const rockClick = () => {
     const cResponse = getRandomInt(0,2);
     if(cResponse == 0){
-        message.innerHTML = `Your's ==> <img src="./images/stone.png" alt="Rock" style="width:18px"/> "YOU TIRED"  <img src="./images/${choice[cResponse]}.png" alt="Rock" style="width:18px"/> <== Computer's`;
+        message.innerHTML = `Your's ==> <img src="./images/stone.png" alt="Rock" style="width:30px"/> "DRAW"  <img src="./images/${choice[cResponse]}.png" alt="Rock" style="width:30px"/> <== Computer's`;
     }
     else if(cResponse == 1){
-        message.innerHTML = `Your's ==> <img src="./images/stone.png" alt="Rock" style="width:18px"/> "YOU WIN"  <img src="./images/${choice[cResponse]}.png" alt="Rock" style="width:18px"/> <== Computer's`;
+        message.innerHTML = `Your's ==> <img src="./images/stone.png" alt="Rock" style="width:30px"/> "YOU WIN"  <img src="./images/${choice[cResponse]}.png" alt="Rock" style="width:30px"/> <== Computer's`;
         yScoreValue++;
         yScoreElement.innerHTML = yScoreValue;
     }
     else{
-        message.innerHTML = `Your's ==> <img src="./images/stone.png" alt="Rock" style="width:18px"/> "YOU LOSE"  <img src="./images/${choice[cResponse]}.png" alt="Rock" style="width:18px"/> <== Computer's`;
+        message.innerHTML = `Your's ==> <img src="./images/stone.png" alt="Rock" style="width:30px"/> "YOU LOSE"   <img src="./images/${choice[cResponse]}.png" alt="Rock" style="width:30px"/> <== Computer's`;
         cScoreValue++;
         cScoreElement.innerHTML = cScoreValue;
         
@@ -40,15 +40,15 @@ const rockClick = () => {
 const scissorClick = () => {
     const cResponse = getRandomInt(0,2);
     if(cResponse == 1){
-        message.innerHTML = `Your's ==> <img src="./images/paper.png" alt="Rock" style="width:18px"/> "YOU TIRED"  <img src="./images/${choice[cResponse]}.png" alt="Rock" style="width:18px"/> <== Computer's`;
+        message.innerHTML = `Your's ==> <img src="./images/paper.png" alt="Rock" style="width:30px"/> "DRAW"  <img src="./images/${choice[cResponse]}.png" alt="Rock" style="width:30px"/> <== Computer's`;
     }
     else if(cResponse == 2){
-        message.innerHTML = `Your's ==> <img src="./images/paper.png" alt="Rock" style="width:18px"/> "YOU WIN"  <img src="./images/${choice[cResponse]}.png" alt="Rock" style="width:18px"/> <== Computer's`;
+        message.innerHTML = `Your's ==> <img src="./images/paper.png" alt="Rock" style="width:30px"/> "YOU WIN"  <img src="./images/${choice[cResponse]}.png" alt="Rock" style="width:30px"/> <== Computer's`;
         yScoreValue++;
         yScoreElement.innerHTML = yScoreValue;
     }
     else{
-        message.innerHTML = `Your's ==> <img src="./images/paper.png" alt="Rock" style="width:18px"/> "YOU LOSE"  <img src="./images/${choice[cResponse]}.png" alt="Rock" style="width:18px"/> <== Computer's`;
+        message.innerHTML = `Your's ==> <img src="./images/paper.png" alt="Rock" style="width:30px"/> "YOU LOSE"  <img src="./images/${choice[cResponse]}.png" alt="Rock" style="width:30px"/> <== Computer's`;
         cScoreValue++;
         cScoreElement.innerHTML = cScoreValue;
         
@@ -57,16 +57,16 @@ const scissorClick = () => {
 const paperClick = () => {
     const cResponse = getRandomInt(0,2);
     if(cResponse == 2){
-        message.innerHTML = `Your's ==> <img src="./images/scissors.png" alt="Rock" style="width:18px"/> "YOU TIRED"  <img src="./images/${choice[cResponse]}.png" alt="Rock" style="width:18px"/> <== Computer's`;
+        message.innerHTML = `Your's ==> <img src="./images/scissors.png" alt="Rock" style="width:30px"/> "DRAW"  <img src="./images/${choice[cResponse]}.png" alt="Rock" style="width:30px"/> <== Computer's`;
     }
     else if(cResponse == 0){
-        message.innerHTML = `Your's ==> <img src="./images/scissors.png" alt="Rock" style="width:18px"/> "YOU WIN"  <img src="./images/${choice[cResponse]}.png" alt="Rock" style="width:18px"/> <== Computer's`;
+        message.innerHTML = `Your's ==> <img src="./images/scissors.png" alt="Rock" style="width:30px"/> "YOU WIN"  <img src="./images/${choice[cResponse]}.png" alt="Rock" style="width:30px"/> <== Computer's`;
         yScoreValue++;
         yScoreElement.innerHTML = yScoreValue;
     }
     else{
-        message.innerHTML = `Your's ==> <img src="./images/scissors.png" alt="Rock" style="width:18px"/> "YOU LOSE"  <img src="./images/${choice[cResponse]}.png" alt="Rock" style="width:18px"/> <== Computer's`;
-        cScoreValue++;
+        message.innerHTML = `Your's ==> <img src="./images/scissors.png" alt="Rock" style="width:30px"/> "YOU LOSE"  <img src="./images/${choice[cResponse]}.png" alt="Rock" style="width:30px"/> <== Computer's`;
+        cScoreValue30px
         cScoreElement.innerHTML = cScoreValue;
         
     }
