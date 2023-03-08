@@ -61,6 +61,12 @@ table{
 }
 #btn-3{
     background-color: transparent;
+<<<<<<< HEAD
+=======
+}
+#btn,#btn-2,#btn-3{
+    cursor: pointer;
+>>>>>>> 2494bdf29af264e624aad1ab6e499e51b3244adf
 }
 #btn,#btn-2,#btn-3{
     cursor: pointer;
