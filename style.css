@@ -54,11 +54,14 @@ table{
     border: none;
 }
 #btn-1{
-    background-color: #34A953;
+    background-color: transparant;
 }
 #btn-2{
-    background-color: #FBBC05;
+    background-color: transparant;
 }
 #btn-3{
-    background-color: #EA4335;
+    background-color: transparant;
+}
+#btn,#btn-2,#btn-3{
+    cursor: pointer;
 }
