@@ -18,7 +18,6 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
-// var computerResponse = getRandomInt(1, 3);
 
 const rockClick = () => {
     const cResponse = getRandomInt(0,2);
