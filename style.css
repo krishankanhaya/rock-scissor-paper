@@ -9,7 +9,8 @@ body{
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 1rem;
-    background-color: #4285F4;
+    background-color: #0c2c5f;
+    color: white;
 }
 
 .content{
@@ -32,11 +33,11 @@ table{
     text-align: center;
 }
 #cScore{
-    color: rgb(243, 119, 119);
+    color: rgb(236, 154, 154);
     font-size: 1.4rem;
 }
 #yScore{
-    color: rgb(126, 255, 126);
+    color: rgb(184, 231, 184);
     font-size: 1.4rem;
 }
 .control{
